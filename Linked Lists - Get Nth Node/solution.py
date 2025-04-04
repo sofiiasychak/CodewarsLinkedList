@@ -11,7 +11,7 @@ def get_nth(node, index):
         raise IndexError
 
     current_node = node
-    count = 1
+    count = 0
 
     while current_node:
         if count == index:
