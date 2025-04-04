@@ -1,6 +1,6 @@
 class Context(object):
     """
-    Given class.
+    Given class of Contex.
     """
     def __init__(self, source, dest):
         self.source = source
