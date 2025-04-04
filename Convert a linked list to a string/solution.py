@@ -14,7 +14,7 @@ def stringify(node):
     next_node = current_node.next
     list_of_data = []
 
-    while next_node != None:
+    while next_node is not None:
         list_of_data.append(current_node.data)
         current_node = next_node
         next_node = current_node.next
