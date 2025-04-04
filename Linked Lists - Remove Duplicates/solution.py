@@ -1,4 +1,7 @@
 def remove_duplicates(head):
+    """
+    Solution of the task.
+    """
     if head is None:
         return None
 
