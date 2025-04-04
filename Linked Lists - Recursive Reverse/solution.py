@@ -1,9 +1,15 @@
 class Node(object):
+    """
+    Given class.
+    """
     def __init__(self, data=None):
         self.data = data
         self.next = None
 
 def reverse(head):
+    """
+    Solition of the task.
+    """
     if head == None:
         return head
     if not head.next:
