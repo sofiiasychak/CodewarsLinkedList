@@ -10,7 +10,7 @@ def linked_list_from_string(s):
     """
     Solution implementation.
     """
-    if s == "None" or s == "null":
+    if s in ("None", "null"):
         return None
 
     splitted_string = s.split(" -> ")
